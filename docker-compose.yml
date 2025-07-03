@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  fitnessapp:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "9000:9000"
+    env_file:
+      - .env
+    # volumes:
+    #   - ./:/app  # For live reload in dev
+    # command: ["python", "main.py"]  # Change to prod command below when using prod Dockerfile
+    # # command: ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "9000"]
