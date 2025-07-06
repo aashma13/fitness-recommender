@@ -6,20 +6,20 @@ A personalized fitness and nutrition assistant powered by GPT-4 and semantic vec
 
 ---
 
-### 🚀 Features
+### Features
 
-* 🧠 **GPT-4 Powered Recommendations**
+* **GPT-4 Powered Recommendations**
   Uses GPT-4 to generate and personalize fitness and dietary guidance based on user input.
 
-* 🔍 **Semantic Search with FAISS**
+* **Semantic Search with FAISS**
   Meal and workout recommendations are retrieved via **vector similarity** using FAISS and OpenAI embeddings, enabling context-aware and personalized results based on previous other users goal. 
 
-* 📝 **User Profile-Based Personalization**
+* **User Profile-Based Personalization**
 
-* 📅 **Weekly Planner**
+* **Weekly Planner**
   Outputs structured **7-day plans** for both workouts and meals.
 
-* 🧾 **Meal Database with Nutritional Info**
+* **Meal Database with Nutritional Info**
   workouts and diet data form other data stored by Gym center. 
 
 ---
