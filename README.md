@@ -129,3 +129,29 @@ docker-compose down
 
 * Ensure you have an OpenAI API key configured if the app makes external API calls.
 * The app starts with `uv run`, which behaves like `uvicorn main:app --reload` behind the scenes if your `main.py` defines `app`.
+
+
+## Running streamlit webapp
+
+```bash
+streamlit run app.py
+```
+
+### Example Fitness goal:
+
+```
+User Fitness Profile
+Age: 55–64
+Gender: Female
+Height: 5'0" – 5'4" (152–163 cm)
+Current Weight: 150–174 lbs (68–79 kg)
+Desired Weight: 100–124 lbs (45–56 kg)
+BMI: 25–29.9 (Overweight)
+Occupation Activity Level: Mostly sedentary (desk work/administrative)
+Chronic Health Conditions: None
+Dietary Preference: Vegetarian
+Sleep Duration: 4–5 hours per night
+Current Fitness Level: Intermediate
+Current Exercise Frequency: Daily
+Preferred Update Frequency: Daily
+```
