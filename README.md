@@ -1,3 +1,49 @@
+## GPT-4 Based Fitness Workout & Meal Plan Recommender App
+
+A personalized fitness and nutrition assistant powered by GPT-4 and semantic vector search (FAISS). This AI-driven app provides **customized weekly workout routines and diet plans** tailored to your fitness goals, dietary preferences, and health profile. It uses **LLM-based embeddings** to match users with optimal meal plans and workouts using **semantic similarity search**.
+
+<img src="https://github.com/aashma13/fitness-recommender/blob/7206a123081b6a31aba7e8f4b62133ae9b04807e/fintess_and_meal_plans.mp4.gif">
+
+---
+
+### 🚀 Features
+
+* 🧠 **GPT-4 Powered Recommendations**
+  Uses GPT-4 to generate and personalize fitness and dietary guidance based on user input.
+
+* 🔍 **Semantic Search with FAISS**
+  Meal and workout recommendations are retrieved via **vector similarity** using FAISS and OpenAI embeddings, enabling context-aware and personalized results based on previous other users goal. 
+
+* 📝 **User Profile-Based Personalization**
+
+* 📅 **Weekly Planner**
+  Outputs structured **7-day plans** for both workouts and meals.
+
+* 🧾 **Meal Database with Nutritional Info**
+  workouts and diet data form other data stored by Gym center. 
+
+---
+
+### Tech Stack
+
+* **Backend**: Python, FastAPI
+* **LLM**: OpenAI GPT-4 (via API)
+* **Embeddings**: OpenAI Embeddings (e.g., `text-embedding-3-small`)
+* **Vector Search**: FAISS
+* **Frontend**: Streamlit
+* **Deployment**: Docker
+
+---
+
+### Example Workflow
+
+1. **User signs up** and fills in a profile (age, gender, height, weight, fitness goal, dietary preferences).
+2. **App encodes the profile and context** into an embedding.
+3. **FAISS searches** the meal/workout vector database for semantically similar items.
+4. **GPT-4 curates a 7-day plan** using the retrieved items, ensuring logical structure and balance.
+5. **The user receives a detailed, personalized plan** that includes meal  and daily workouts.
+
+
 ## Setup & Run Guide
 
 ### Requirements
