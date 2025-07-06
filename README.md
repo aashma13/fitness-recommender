@@ -2,6 +2,16 @@
 
 A personalized fitness and nutrition assistant powered by GPT-4 and semantic vector search (FAISS). This AI-driven app provides **customized weekly workout routines and diet plans** tailored to your fitness goals, dietary preferences, and health profile. It uses **LLM-based embeddings** to match users with optimal meal plans and workouts using **semantic similarity search**.
 
+
+
+
+
+https://github.com/user-attachments/assets/76fa5759-e6cc-4b56-a0e3-9e8513c74503
+
+
+
+
+
 <img src="https://github.com/aashma13/fitness-recommender/blob/7206a123081b6a31aba7e8f4b62133ae9b04807e/fintess_and_meal_plans.mp4.gif">
 
 ---
